@@ -4,7 +4,8 @@ import Student from "./Student.tsx"
 function App() {
   return(
     <>
-      <Student name="TanjirHasan" age="35" isStudent={true}/>
+      <Student name="Tanjir Hasan" age="35" isStudent={false}/>
+      <Student name="Rubina Akter" age="26" isStudent={true}/>
     </>
   );
 }
